@@ -23,6 +23,13 @@
 		"oAP": "/html/about.html",
 		"oF": 0
 		},
+	"/html/accessibility.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/html/accessibility.html",
+		"oF": 0
+		},
 	"/html/assets/css/ie.css": {
 		"aP": 1,
 		"bl": 0,
@@ -305,78 +312,78 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/html/assets/img/cropped-lady01.jpg": {
+	"/html/assets/img/cropped-christina-ryan.jpg": {
 		"ft": 16384,
 		"iS": 39084,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/html/assets/img/cropped-lady01.jpg",
+		"oAP": "/html/assets/img/cropped-christina-ryan.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/html/assets/img/cropped-lady02.jpg": {
+	"/html/assets/img/cropped-justine-bamblett.jpg": {
+		"ft": 16384,
+		"iS": 106576,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/html/assets/img/cropped-justine-bamblett.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/html/assets/img/cropped-kerry-snell.jpg": {
+		"ft": 16384,
+		"iS": 90099,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/html/assets/img/cropped-kerry-snell.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/html/assets/img/cropped-louise-bannister.jpg": {
+		"ft": 16384,
+		"iS": 53983,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/html/assets/img/cropped-louise-bannister.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/html/assets/img/cropped-rona-lazo.jpg": {
+		"ft": 16384,
+		"iS": 101429,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/html/assets/img/cropped-rona-lazo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/html/assets/img/cropped-sue-salthouse.jpg": {
+		"ft": 16384,
+		"iS": 89742,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/html/assets/img/cropped-sue-salthouse.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/html/assets/img/cropped-yenn-purkis.jpg": {
 		"ft": 16384,
 		"iS": 45470,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/html/assets/img/cropped-lady02.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/html/assets/img/cropped-lady03.jpg": {
-		"ft": 16384,
-		"iS": 51270,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/html/assets/img/cropped-lady03.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/html/assets/img/cropped-lady04.jpg": {
-		"ft": 16384,
-		"iS": 88327,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/html/assets/img/cropped-lady04.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/html/assets/img/cropped-lady05.jpg": {
-		"ft": 16384,
-		"iS": 79077,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/html/assets/img/cropped-lady05.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/html/assets/img/cropped-lady06.jpg": {
-		"ft": 16384,
-		"iS": 89922,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/html/assets/img/cropped-lady06.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/html/assets/img/cropped-lady07.jpg": {
-		"ft": 16384,
-		"iS": 81235,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/html/assets/img/cropped-lady07.jpg",
+		"oAP": "/html/assets/img/cropped-yenn-purkis.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -393,78 +400,89 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/html/assets/img/full-lady01.jpg": {
+	"/html/assets/img/full-christina-ryan.jpg": {
 		"ft": 16384,
 		"iS": 53190,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/html/assets/img/full-lady01.jpg",
+		"oAP": "/html/assets/img/full-christina-ryan.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/html/assets/img/full-lady02.jpg": {
-		"ft": 16384,
-		"iS": 55599,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/html/assets/img/full-lady02.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/html/assets/img/full-lady03.jpg": {
-		"ft": 16384,
-		"iS": 82904,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/html/assets/img/full-lady03.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/html/assets/img/full-lady04.jpg": {
-		"ft": 16384,
-		"iS": 214663,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/html/assets/img/full-lady04.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/html/assets/img/full-lady05.jpg": {
-		"ft": 16384,
-		"iS": 187050,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/html/assets/img/full-lady05.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/html/assets/img/full-lady06.jpg": {
+	"/html/assets/img/full-justine-bamblett.jpg": {
 		"ft": 16384,
 		"iS": 243888,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/html/assets/img/full-lady06.jpg",
+		"oAP": "/html/assets/img/full-justine-bamblett.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/html/assets/img/full-lady07.jpg": {
+	"/html/assets/img/full-kerry-snell.jpg": {
+		"ft": 16384,
+		"iS": 187050,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/html/assets/img/full-kerry-snell.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/html/assets/img/full-louise-bannister.jpg": {
+		"ft": 16384,
+		"iS": 82904,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/html/assets/img/full-louise-bannister.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/html/assets/img/full-rona-lazo.jpg": {
+		"ft": 16384,
+		"iS": 214663,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/html/assets/img/full-rona-lazo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/html/assets/img/full-sue-salthouse.jpg": {
 		"ft": 16384,
 		"iS": 202093,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/html/assets/img/full-lady07.jpg",
+		"oAP": "/html/assets/img/full-sue-salthouse.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/html/assets/img/full-yenn-purkis.jpg": {
+		"ft": 16384,
+		"iS": 55599,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/html/assets/img/full-yenn-purkis.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/html/assets/img/logo-tint.jpg": {
+		"ft": 16384,
+		"iS": 23660,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/html/assets/img/logo-tint.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -507,53 +525,53 @@
 		"oAP": "/html/credits.html",
 		"oF": 0
 		},
-	"/html/entry-lady01.html": {
+	"/html/entry-christina-ryan.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/html/entry-lady01.html",
+		"oAP": "/html/entry-christina-ryan.html",
 		"oF": 0
 		},
-	"/html/entry-lady02.html": {
+	"/html/entry-justine-bamblett.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/html/entry-lady02.html",
+		"oAP": "/html/entry-justine-bamblett.html",
 		"oF": 0
 		},
-	"/html/entry-lady03.html": {
+	"/html/entry-kerry-snell.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/html/entry-lady03.html",
+		"oAP": "/html/entry-kerry-snell.html",
 		"oF": 0
 		},
-	"/html/entry-lady04.html": {
+	"/html/entry-louise-bannister.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/html/entry-lady04.html",
+		"oAP": "/html/entry-louise-bannister.html",
 		"oF": 0
 		},
-	"/html/entry-lady05.html": {
+	"/html/entry-rona-lazo.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/html/entry-lady05.html",
+		"oAP": "/html/entry-rona-lazo.html",
 		"oF": 0
 		},
-	"/html/entry-lady06.html": {
+	"/html/entry-sue-salthouse.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/html/entry-lady06.html",
+		"oAP": "/html/entry-sue-salthouse.html",
 		"oF": 0
 		},
-	"/html/entry-lady07.html": {
+	"/html/entry-yenn-purkis.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/html/entry-lady07.html",
+		"oAP": "/html/entry-yenn-purkis.html",
 		"oF": 0
 		},
 	"/html/gallery.html": {
@@ -661,6 +679,13 @@
 		"oAP": "/html/about.html",
 		"oF": 2
 		},
+	"/kit/accessibility.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "/html/accessibility.html",
+		"oF": 2
+		},
 	"/kit/credits.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -668,53 +693,53 @@
 		"oAP": "/html/credits.html",
 		"oF": 2
 		},
-	"/kit/entry-lady01.kit": {
+	"/kit/entry-christina-ryan.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "/html/entry-lady01.html",
+		"oAP": "/html/entry-christina-ryan.html",
 		"oF": 2
 		},
-	"/kit/entry-lady02.kit": {
+	"/kit/entry-justine-bamblett.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "/html/entry-lady02.html",
+		"oAP": "/html/entry-justine-bamblett.html",
 		"oF": 2
 		},
-	"/kit/entry-lady03.kit": {
+	"/kit/entry-kerry-snell.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "/html/entry-lady03.html",
+		"oAP": "/html/entry-kerry-snell.html",
 		"oF": 2
 		},
-	"/kit/entry-lady04.kit": {
+	"/kit/entry-louise-bannister.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "/html/entry-lady04.html",
+		"oAP": "/html/entry-louise-bannister.html",
 		"oF": 2
 		},
-	"/kit/entry-lady05.kit": {
+	"/kit/entry-rona-lazo.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "/html/entry-lady05.html",
+		"oAP": "/html/entry-rona-lazo.html",
 		"oF": 2
 		},
-	"/kit/entry-lady06.kit": {
+	"/kit/entry-sue-salthouse.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "/html/entry-lady06.html",
+		"oAP": "/html/entry-sue-salthouse.html",
 		"oF": 2
 		},
-	"/kit/entry-lady07.kit": {
+	"/kit/entry-yenn-purkis.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "/html/entry-lady07.html",
+		"oAP": "/html/entry-yenn-purkis.html",
 		"oF": 2
 		},
 	"/kit/gallery.kit": {
@@ -929,7 +954,7 @@
 "projectAttributes": {
 	"creationDate": 572093566.41161799,
 	"displayValue": "esrc-wwdact",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-doge",
 	"iconImageWasSetByUser": 0
 	},

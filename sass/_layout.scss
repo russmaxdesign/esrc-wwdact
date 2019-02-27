@@ -38,11 +38,14 @@
 // content
 
 .content-container {
-  background: $content-bg-color;
+  background-color: $content-bg-color;
 }
 
 .content-container2 {
   background: $bg-content;
+  background-image: url(../img/logo-tint.jpg);
+  background-repeat: no-repeat;
+  background-position: right 50px;
 }
 
 .content {

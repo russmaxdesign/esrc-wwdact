@@ -645,10 +645,13 @@ a:active {
   line-height: 1; }
 
 .content-container {
-  background: #fff; }
+  background-color: #fff; }
 
 .content-container2 {
-  background: #fff; }
+  background: #fff;
+  background-image: url(../img/logo-tint.jpg);
+  background-repeat: no-repeat;
+  background-position: right 50px; }
 
 .content {
   padding: 0 20px; }
