@@ -254,7 +254,7 @@ h6 {
 
 h1 {
   margin: 0 0 .5em;
-  font-size: 175%; }
+  font-size: 180%; }
 
 h2 {
   font-size: 137.5%; }
@@ -271,10 +271,11 @@ h5 {
 h6 {
   font-size: 100%; }
 
-.medium, .author, .caption {
+.medium, .author {
   font-size: 93.75%; }
 
-.small, .entry-digital-gallery, .home-link-text-title, .nav a {
+.small, .caption, .entry-digital-gallery, .about-link-text, .home-link-text-title,
+.about-link-text-title, .nav a {
   font-size: 87.5%; }
 
 .xsmall, .details {
@@ -294,9 +295,10 @@ h6 {
     font-size: 123.529411764706%; }
   h4 {
     font-size: 111.764705882353%; }
-  .medium, .author, .caption {
+  .medium, .author {
     font-size: 94.117647058824%; }
-  .small, .entry-digital-gallery, .home-link-text-title, .nav a {
+  .small, .caption, .entry-digital-gallery, .about-link-text, .home-link-text-title,
+  .about-link-text-title, .nav a {
     font-size: 88.235294117647%; }
   .xsmall, .details {
     font-size: 76.470588235294%; }
@@ -314,9 +316,10 @@ h6 {
     font-size: 122.222222222222%; }
   h4 {
     font-size: 111.111111111111%; }
-  .medium, .author, .caption {
+  .medium, .author {
     font-size: 94.444444444444%; }
-  .small, .entry-digital-gallery, .home-link-text-title, .nav a {
+  .small, .caption, .entry-digital-gallery, .about-link-text, .home-link-text-title,
+  .about-link-text-title, .nav a {
     font-size: 88.888888888889%; }
   .xsmall, .details {
     font-size: 77.777777777778%; }
@@ -765,7 +768,7 @@ a:active {
 
 .caption {
   font-family: "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
-  font-style: normal; }
+  font-style: italic; }
 
 .details {
   border-bottom: 0 !important;
@@ -903,7 +906,8 @@ a:active {
   margin-bottom: 1em;
   padding: .5em; }
 
-.home-link {
+.home-link,
+.about-link {
   position: relative;
   float: left;
   width: 120px;
@@ -911,11 +915,17 @@ a:active {
   margin: 0 1em 1em 0;
   text-decoration: none; }
 
+.about-link {
+  width: 120px; }
+
 .home-link:link,
-.home-link:visited {
+.home-link:visited,
+.about-link:link,
+.about-link:visited {
   border-bottom: 0; }
 
-.home-link-text {
+.home-link-text,
+.about-link-text {
   position: absolute;
   top: 0;
   right: 0;
@@ -927,14 +937,21 @@ a:active {
   background: rgba(0, 0, 0, 0.7);
   text-align: center; }
 
+.about-link-text {
+  padding-top: 50px; }
+
 .home-link:focus .home-link-text,
-.home-link:hover .home-link-text {
+.home-link:hover .home-link-text,
+.about-link:focus .about-link-text,
+.about-link:hover .about-link-text {
   opacity: 1; }
 
-.home-link-text-name {
+.home-link-text-name,
+.about-link-text-name {
   font-weight: bold; }
 
-.home-link-text-title {
+.home-link-text-title,
+.about-link-text-title {
   font-style: italic; }
 
 .home-link-more {
@@ -955,20 +972,13 @@ a:active {
 .home-link-more:hover {
   background: black; }
 
-.about-image {
-  float: left;
-  width: 120px;
-  margin: 0 1em 1em 0; }
-
 @media (min-width: 600px) {
   .home-link {
     width: 150px; }
   .home-link-more {
     width: 150px;
     height: 150px;
-    line-height: 150px; }
-  .about-image {
-    width: 130px; } }
+    line-height: 150px; } }
 
 @media (min-width: 800px) {
   .home-link {
@@ -976,9 +986,7 @@ a:active {
   .home-link-more {
     width: 180px;
     height: 180px;
-    line-height: 180px; }
-  .about-image {
-    width: 140px; } }
+    line-height: 180px; } }
 
 @media (min-width: 1000px) {
   .home-link {
@@ -987,8 +995,8 @@ a:active {
     width: 200px;
     height: 200px;
     line-height: 200px; }
-  .about-image {
-    width: 140px; } }
+  .about-link {
+    width: 120px; } }
 
 @media (min-width: 1200px) {
   .home-link {
@@ -996,9 +1004,7 @@ a:active {
   .home-link-more {
     width: 220px;
     height: 220px;
-    line-height: 220px; }
-  .about-image {
-    width: 140px; } }
+    line-height: 220px; } }
 
 .nav-container {
   clear: both;

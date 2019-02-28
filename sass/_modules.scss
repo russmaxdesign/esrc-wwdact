@@ -22,10 +22,10 @@
 }
 
 .caption {
-  @extend .medium;
+  @extend .small;
 
   font-family: $font;
-  font-style: normal;
+  font-style: italic;
 }
 
 .details {
@@ -218,7 +218,8 @@
 
 // home-link
 
-.home-link {
+.home-link,
+.about-link {
   position: relative;
   float: left;
   width: 120px;
@@ -227,12 +228,19 @@
   text-decoration: none;
 }
 
+.about-link {
+  width: 120px;
+}
+
 .home-link:link,
-.home-link:visited {
+.home-link:visited,
+.about-link:link,
+.about-link:visited {
   border-bottom: 0;
 }
 
-.home-link-text {
+.home-link-text,
+.about-link-text {
   position: absolute;
   top: 0;
   right: 0;
@@ -245,16 +253,26 @@
   text-align: center;
 }
 
+.about-link-text {
+  @extend .small;
+
+  padding-top: 50px;
+}
+
 .home-link:focus .home-link-text,
-.home-link:hover .home-link-text {
+.home-link:hover .home-link-text,
+.about-link:focus .about-link-text,
+.about-link:hover .about-link-text {
   opacity: 1;
 }
 
-.home-link-text-name {
+.home-link-text-name,
+.about-link-text-name {
   font-weight: bold;
 }
 
-.home-link-text-title {
+.home-link-text-title,
+.about-link-text-title {
   @extend .small;
 
   font-style: italic;
@@ -284,15 +302,6 @@
 }
 
 
-// about-image
-
-.about-image {
-  float: left;
-  width: 120px;
-  margin: 0 1em 1em 0;
-}
-
-
 @media (min-width: 600px) {
   .home-link {
     width: 150px;
@@ -302,10 +311,6 @@
     width: 150px;
     height: 150px;
     line-height: 150px;
-  }
-
-  .about-image {
-    width: 130px;
   }
 }
 
@@ -318,10 +323,6 @@
     width: 180px;
     height: 180px;
     line-height: 180px;
-  }
-
-  .about-image {
-    width: 140px;
   }
 }
 
@@ -336,8 +337,8 @@
     line-height: 200px;
   }
 
-  .about-image {
-    width: 140px;
+  .about-link {
+    width: 120px;
   }
 }
 
@@ -350,9 +351,5 @@
     width: 220px;
     height: 220px;
     line-height: 220px;
-  }
-
-  .about-image {
-    width: 140px;
   }
 }
