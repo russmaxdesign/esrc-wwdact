@@ -248,7 +248,7 @@ h4,
 h5,
 h6 {
   margin: 1em 0 .5em;
-  color: #4a4a4a;
+  color: #1D8177;
   font-family: 'wwdact';
   line-height: 1.1; }
 
@@ -337,11 +337,12 @@ blockquote {
   border-top: 1px solid #dbdbdb;
   border-bottom: 1px solid #dbdbdb;
   margin: 2em 0;
-  padding: 1em;
+  padding: 1em 0;
   color: #4a4a4a;
   font-family: "Rufina", Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
   font-size: 1em;
-  font-style: italic; }
+  font-style: italic;
+  line-height: 1.5; }
 
 img {
   display: block;
@@ -768,7 +769,8 @@ a:active {
 
 .caption {
   font-family: "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
-  font-style: italic; }
+  font-style: italic;
+  margin-top: .5em; }
 
 .details {
   border-bottom: 0 !important;
@@ -1095,3 +1097,5 @@ a:active {
   .nav a {
     padding: 10px;
     margin: 0 10px 0 0; } }
+
+/*# sourceMappingURL=styles.css.map */
